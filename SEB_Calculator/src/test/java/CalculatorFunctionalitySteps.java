@@ -17,7 +17,6 @@ public class CalculatorFunctionalitySteps extends CalculatorObjects {
 	
 	@When("User enters MIN valid data")
 	public void userEntersMinValidData() {
-		//MIN values set
 		//MIN values set as example, to be taken from requirements
 		int purchaseVal = 10000;
 		int interestVal = 1;
