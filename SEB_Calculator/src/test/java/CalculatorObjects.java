@@ -58,12 +58,12 @@ public class CalculatorObjects extends CommonMethods {
 		clickOnElement(getPaymentTermsLoc(termInMonths));
 	}
 	
+	//removing all threads at the end of test
 	public static void removeAllThreads() {
 		purchase.remove();
 		interest.remove();
 		installment.remove();
 		term.remove();
 	}
-	
 
 }
